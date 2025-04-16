@@ -1,0 +1,28 @@
+/* For Firefox */
+
+* {
+  scrollbar-width: inherit;
+  scrollbar-color: var(--bs-primary) #ecf0f1;
+}
+
+/* For WebKit Browsers: Chrome, Safari, Edge */
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ecf0f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--bs-primary);
+  border-radius: 100%;
+  border: 2px solid #ecf0f1;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--bs-primary);
+}
+

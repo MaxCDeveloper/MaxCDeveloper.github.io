@@ -1,0 +1,20 @@
+/* Top View | Landing Page */
+
+@media (min-width: 576px) {
+  #MaxC-Landing-Page_Section {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  #MaxC-Landing-Page_Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
