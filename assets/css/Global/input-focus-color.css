@@ -1,0 +1,8 @@
+/* Override the focus border and shadow for all inputs */
+
+.form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.2rem rgba(92, 107, 192, 0.25);
+  outline: none;
+}
+
