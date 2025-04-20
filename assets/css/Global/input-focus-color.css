@@ -6,3 +6,11 @@
   outline: none;
 }
 
+.accordion-button:focus {
+  box-shadow: 0px 0px 2px 1px var(--bs-primary) !important;
+  /*outline: var(--bs-primary) !important;*/
+  /*border-color: #ff5733 !important;*/
+  /*background-color: #fff8f0 !important;*/
+  /*color: #333 !important;*/
+}
+
